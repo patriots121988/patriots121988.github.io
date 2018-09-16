@@ -1,0 +1,95 @@
+p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+border: 2px solid; color:red;
+width: 600px;
+  color: red;
+  background-color:grey;
+}
+body {
+  background-color: blue;
+  font-family:'monospace' sans-serif;
+  font-size: 24px;
+}
+ul.navigation {
+  background-color: blue;
+  display: block;
+  list-style: none;
+  margin-top: 0;
+  width: 100%;
+  height: 35px;
+}
+
+ul.navigation li {
+  display: inline-block;
+  float: left;
+}
+ul.navigation a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul.navigation a:hover {
+  background-color: red;
+  color: green;
+}
+
+table {background-color: grey;
+}
+.effect {text-transform: uppercase;}
+.quotation {font-family: monospace;}
+
+#title {
+  font-size: 36px;
+  color: red;
+  background-color: blue;
+
+}
+img {
+  height: 400px;
+}
+body {
+  background-attachment: fixed;
+/*  background-image: url(YankeeStadium.jpg);*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header-image {
+  background-attachment: fixed;
+  background-image: url(YankeeStadium.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 400px;
+}
+a:link{
+  color: red;
+}
+a:visited{
+  color: blue;
+}
+a:hover{
+  color: purple;
+}
+a:active{
+  color: green;
+}
+p:hover{
+  width: 1200px;
+
+  transition: 5s width;
+}
+
+
+p em {
+  background-color: black;
+}
+p strong {
+  background-color: blue;
+}
